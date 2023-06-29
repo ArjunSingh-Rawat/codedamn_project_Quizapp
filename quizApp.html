@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="assets/style/style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        />
+        <link
+            rel="shortcut icon"
+            href="images/favicon.ico"
+            type="image/x-icon"
+        />
+        <title>Codedamn - Quiz Project</title>
+    </head>
+
+    <body>
+        <nav>
+            <a id="leaderboard"
+                >View Highscores <i class="fas fa-hand-point-left fa-lg"></i
+            ></a>
+            <div>Time: <span id="time"></span></div>
+        </nav>
+        <main id="container">
+            <!----------------->
+            <section id="startcard">
+                <h1>Coding Quiz Chalenge</h1>
+                <p>
+                    Try to answer the following code-related quetion within the
+                    time limit.
+                </p>
+                <p>
+                    Keep in mind that incorrect answers will penalize your
+                    score/time by ten seconds!
+                </p>
+                <button id="startQuiz">Start Quiz</button>
+            </section>
+
+            <!------------------------>
+
+            <section id="alldone">
+                <h1>All done!</h1>
+                <p>Your final score is <span id="score"></span>.</p>
+                <div>
+                    Enter initials: <input type="text" />
+                    <button type="submit">Submit</button>
+                    <span id="warnMsg"></span>
+                </div>
+            </section>
+
+            <!-------------------------->
+
+            <section id="question">
+                <div id="questionbox">
+                    <h1>Commonly used data types DO NOT include:</h1>
+                    <ul>
+                        <li>one</li>
+                        <li>two</li>
+                        <li>three</li>
+                        <li>four</li>
+                    </ul>
+                </div>
+                <hr class="outputbox" />
+                <div class="outputbox" id="output"></div>
+            </section>
+
+            <!--------------------------->
+
+            <section id="highscore">
+                <h1>Highscores</h1>
+                <ul></ul>
+                <button id="back">Go Back</button>
+                <button id="clear">Clear Highscores</button>
+            </section>
+        </main>
+        <script src="assets/questions.js"></script>
+        <script src="assets/script.js"></script>
+    </body>
+</html>

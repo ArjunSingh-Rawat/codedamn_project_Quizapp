@@ -1,0 +1,166 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Verdana;
+    font-size: 16px;
+}
+
+nav {
+    background-color: #218380;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    cursor: pointer;
+}
+
+#time {
+    margin-right: 25px;
+}
+
+#container {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+/*__________home page__________*/
+
+#startcard {
+    border: solid #cbcbcb 2px;
+    border-radius: 25px;
+    padding: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 10px 5px 5px #cbcbcb;
+}
+
+#startcard * {
+    margin-top: 15px;
+}
+
+#startcard button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #218380;
+    color: white;
+}
+#startcard button:hover {
+    cursor: pointer;
+}
+
+/*__________All done page__________*/
+
+#alldone {
+    border: solid #cbcbcb 2px;
+    border-radius: 25px;
+    padding: 40px;
+    padding-right: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 10px 5px 5px #cbcbcb;
+    display: none;
+}
+
+#alldone * {
+    margin-top: 15px;
+}
+
+#alldone input {
+    height: 25px;
+    width: 60px;
+    padding-left: 2px;
+}
+#alldone button {
+    padding: 5px;
+    background-color: #218380;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+#alldone button:hover {
+    cursor: pointer;
+}
+
+#warnMsg {
+    font-size: 12px;
+    display: block;
+    margin-top: 5px;
+    margin-left: 100px;
+    color: rgb(216, 69, 69);
+    width: 150px;
+    display: none;
+}
+
+/*__________Questions page__________*/
+
+#question {
+    max-width: 800px;
+    border: solid #cbcbcb 2px;
+    border-radius: 25px;
+    padding: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 10px 5px 5px #cbcbcb;
+    display: none;
+}
+#question * {
+    margin: 15px;
+}
+
+#questionbox ul li {
+    list-style-type: none;
+    background-color: #218380;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+#questionbox ul li:hover {
+    cursor: pointer;
+}
+
+.outputbox {
+    display: none;
+}
+
+/*__________Leaderboard page__________*/
+
+#highscore {
+    border: solid #cbcbcb 2px;
+    border-radius: 25px;
+    padding: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 10px 5px 5px #cbcbcb;
+    display: none;
+}
+#highscore ul {
+    list-style-type: none;
+    margin-left: 10px;
+}
+#highscore h1,
+button,
+ul {
+    margin-top: 20px;
+}
+
+#highscore button {
+    background-color: #218380;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-right: 6px;
+}
+
+#highscore button:hover {
+    cursor: pointer;
+}
