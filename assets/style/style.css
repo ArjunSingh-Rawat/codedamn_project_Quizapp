@@ -30,8 +30,6 @@ nav a {
     justify-content: center;
 }
 
-/*__________home page__________*/
-
 #startcard {
     border: solid #cbcbcb 2px;
     border-radius: 25px;
@@ -55,8 +53,6 @@ nav a {
 #startcard button:hover {
     cursor: pointer;
 }
-
-/*__________All done page__________*/
 
 #alldone {
     border: solid #cbcbcb 2px;
@@ -99,8 +95,6 @@ nav a {
     display: none;
 }
 
-/*__________Questions page__________*/
-
 #question {
     max-width: 800px;
     border: solid #cbcbcb 2px;
@@ -130,8 +124,6 @@ nav a {
 .outputbox {
     display: none;
 }
-
-/*__________Leaderboard page__________*/
 
 #highscore {
     border: solid #cbcbcb 2px;
